@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuradha Dwivedi | Python Full Stack Developer</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #fcfcfc;
+            color: #1f2937;
+        }
+        .section-padding {
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05), 0 4px 6px -2px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-shadow:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+        }
+        .header-bg {
+             background-color: rgba(255,255,255,0.95);
+             backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="sticky top-0 z-50 header-bg shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="#" class="text-2xl font-extrabold text-blue-600 tracking-wider">Anuradha Dwivedi</a>
+                <div class="flex space-x-6">
+                    <a href="#introduction" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium transition duration-200">About Me</a>
+                    <a href="#skills" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium transition duration-200">Expertise</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium transition duration-200">Portfolio</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md font-medium transition duration-200">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <section id="introduction" class="section-padding flex flex-col md:flex-row items-center justify-between min-h-[80vh]">
+            <div class="md:w-1/2 md:pr-16 mb-12 md:mb-0">
+                <p class="text-xl text-blue-600 font-semibold mb-3">Hi, I'm a Python Full Stack Developer</p>
+                <h1 class="text-6xl font-black text-gray-900 leading-tight mb-6">
+                    Building <span class="text-blue-600">Exceptional</span> Web & Data Experiences.
+                </h1>
+                <p class="text-xl text-gray-700 mb-8 max-w-lg">
+                    Currently pursuing BCS (Computer Science) from JSPM University, Pune.  
+                    I specialize in Python backend development, full-stack web apps, and data analytics using Power BI & MySQL.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#projects" class="w-full sm:w-auto px-8 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-lg shadow-blue-500/50 hover:bg-blue-700 transition duration-300 transform hover:scale-[1.02]">View Portfolio</a>
+                    <a href="#contact" class="w-full sm:w-auto px-8 py-3 border-2 border-blue-600 text-blue-600 font-bold rounded-lg hover:bg-blue-50 transition duration-300">Get In Touch</a>
+                </div>
+            </div>
+            <div class="md:w-1/3 w-full max-w-xs md:max-w-sm relative">
+                <div class="bg-blue-100 rounded-full w-full h-auto pt-[100%] relative">
+                    <img src="https://placehold.co/400x400/3B82F6/ffffff?text=Anuradha+Dwivedi" alt="Anuradha Dwivedi Profile" class="absolute inset-0 w-full h-full object-cover rounded-full border-8 border-white shadow-2xl">
+                </div>
+            </div>
+        </section>
+
+        <div class="border-t border-gray-200"></div>
+
+        <section id="skills" class="section-padding">
+            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-16">Core Expertise & Technologies</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="p-8 bg-white rounded-2xl card-shadow text-center border-t-4 border-blue-600">
+                    <span class="text-4xl mb-3 inline-block">🐍</span>
+                    <p class="font-bold text-gray-800 text-lg">Python & Django</p>
+                    <p class="text-sm text-gray-500 mt-1">Backend & APIs</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl card-shadow text-center border-t-4 border-blue-600">
+                    <span class="text-4xl mb-3 inline-block">💻</span>
+                    <p class="font-bold text-gray-800 text-lg">HTML, CSS, JavaScript</p>
+                    <p class="text-sm text-gray-500 mt-1">Frontend Development</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl card-shadow text-center border-t-4 border-blue-600">
+                    <span class="text-4xl mb-3 inline-block">📊</span>
+                    <p class="font-bold text-gray-800 text-lg">Power BI & Excel</p>
+                    <p class="text-sm text-gray-500 mt-1">Data Visualization</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl card-shadow text-center border-t-4 border-blue-600">
+                    <span class="text-4xl mb-3 inline-block">🗃️</span>
+                    <p class="font-bold text-gray-800 text-lg">MySQL & NoSQL</p>
+                    <p class="text-sm text-gray-500 mt-1">Database Design</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl card-shadow text-center border-t-4 border-blue-600">
+                    <span class="text-4xl mb-3 inline-block">🌐</span>
+                    <p class="font-bold text-gray-800 text-lg">Flask & Node.js</p>
+                    <p class="text-sm text-gray-500 mt-1">Full Stack Apps</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl card-shadow text-center border-t-4 border-blue-600">
+                    <span class="text-4xl mb-3 inline-block">🔗</span>
+                    <p class="font-bold text-gray-800 text-lg">Git & GitHub</p>
+                    <p class="text-sm text-gray-500 mt-1">Version Control</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="border-t border-gray-200"></div>
+
+        <section id="projects" class="section-padding">
+            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-16">Selected Portfolio Highlights</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-white rounded-xl overflow-hidden card-shadow">
+                    <img src="https://placehold.co/600x400/60a5fa/ffffff?text=AC-Market+Dashboard" alt="AC-Market Dashboard Mockup" class="w-full h-56 object-cover border-b border-gray-100">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">AC-Market Dashboard</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Developed a Power BI dashboard visualizing market data, enabling stakeholders to make data-driven decisions efficiently.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Power BI</span>
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Excel</span>
+                        </div>
+                        <a href="https://github.com/anuradhadwivedi2021" target="_blank" class="text-blue-600 hover:text-blue-800 font-bold transition duration-150 inline-flex items-center group">
+                            View Case Study →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden card-shadow">
+                    <img src="https://placehold.co/600x400/93c5fd/ffffff?text=SmartSpend+Expense+Tracker" alt="SmartSpend Mockup" class="w-full h-56 object-cover border-b border-gray-100">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">SmartSpend – Expense Tracker</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Built a web app using HTML, CSS & JavaScript that allows users to track category-wise expenses and view interactive charts.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">HTML</span>
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">LocalStorage</span>
+                        </div>
+                        <a href="https://github.com/anuradhadwivedi2021" target="_blank" class="text-blue-600 hover:text-blue-800 font-bold transition duration-150 inline-flex items-center group">
+                            View Project →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden card-shadow">
+                    <img src="https://placehold.co/600x400/bfdbfe/ffffff?text=MindSpace+Mood+Tracker" alt="MindSpace Mockup" class="w-full h-56 object-cover border-b border-gray-100">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">MindSpace – Mood Tracker</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Created a mood-tracking web application with motivational quotes and weekly chart visualization using JavaScript and Firebase.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">JavaScript</span>
+                            <span class="text-xs font-semibold bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Firebase</span>
+                        </div>
+                        <a href="https://github.com/anuradhadwivedi2021" target="_blank" class="text-blue-600 hover:text-blue-800 font-bold transition duration-150 inline-flex items-center group">
+                            Explore Code →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="border-t border-gray-200"></div>
+
+        <section id="contact" class="section-padding">
+            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-16">Let's Connect and Collaborate</h2>
+
+            <div class="max-w-2xl mx-auto p-10 bg-white rounded-2xl card-shadow">
+                <p class="text-center text-lg text-gray-600 mb-8">Have a project idea or a question? I'm always open to new opportunities.</p>
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 shadow-sm">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Work Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@domain.com" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 shadow-sm">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">Project Details</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, and goals..." required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition duration-150 shadow-sm"></textarea>
+                    </div>
+
+                    <div id="formMessage" class="hidden text-center p-4 rounded-lg font-medium" role="alert"></div>
+
+                    <button type="submit" class="w-full px-6 py-3 bg-blue-600 text-white font-bold text-lg rounded-lg shadow-xl shadow-blue-500/30 hover:bg-blue-700 transition duration-300 transform hover:scale-[1.01]">
+                        Send Professional Inquiry
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center">
+            <p class="text-lg mb-2">Anuradha Dwivedi | Python Full Stack Developer</p>
+            <p class="text-sm text-gray-400">&copy; 2025 Anuradha Dwivedi. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-6">
+                <a href="https://github.com/anuradhadwivedi2021" class="text-gray-400 hover:text-blue-400 transition duration-200" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/anuradha-dwivedi-6523512a1" class="text-gray-400 hover:text-blue-400 transition duration-200" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formMessage = document.getElementById('formMessage');
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!name || !email || !message) {
+                formMessage.classList.remove('hidden', 'bg-green-100', 'text-green-800');
+                formMessage.classList.add('bg-red-100', 'text-red-800');
+                formMessage.textContent = 'Validation Error: Please fill in all required fields to submit your inquiry.';
+                return;
+            }
+
+            setTimeout(() => {
+                formMessage.classList.remove('hidden', 'bg-red-100', 'text-red-800');
+                formMessage.classList.add('bg-green-100', 'text-green-800');
+                formMessage.textContent = 'Success! Your professional inquiry has been sent. I will review and reply within 24 hours.';
+                document.getElementById('contactForm').reset();
+                setTimeout(() => {
+                    formMessage.classList.add('hidden');
+                }, 7000);
+            }, 700);
+        });
+    </script>
+
+</body>
+</html>
