@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Project (Week 1)
 
-This is my first web development project built using **HTML**.  
+This is my first  devoloper arena intership task 1 web development project built using **HTML**.  
 It includes my personal information, skills, projects, and a contact form.
 
 ---
